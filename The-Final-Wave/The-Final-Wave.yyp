@@ -4,17 +4,10 @@
   "name": "The-Final-Wave",
   "resources": [
     {"id":{"name":"spr_End_Boss_Zombie","path":"sprites/spr_End_Boss_Zombie/spr_End_Boss_Zombie.yy",},"order":1,},
-    {"id":{"name":"room_2","path":"sprites/room_2/room_2.yy",},"order":9,},
-    {"id":{"name":"room_1","path":"sprites/room_1/room_1.yy",},"order":8,},
     {"id":{"name":"spr_Shooting_Zombie","path":"sprites/spr_Shooting_Zombie/spr_Shooting_Zombie.yy",},"order":7,},
     {"id":{"name":"spr_Border","path":"sprites/spr_Border/spr_Border.yy",},"order":0,},
     {"id":{"name":"spr_Normal_Zombie","path":"sprites/spr_Normal_Zombie/spr_Normal_Zombie.yy",},"order":2,},
-<<<<<<< HEAD
-    {"id":{"name":"room_3","path":"sprites/room_3/room_3.yy",},"order":10,},
-    {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":4,},
-=======
     {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":8,},
->>>>>>> a0f72dd4291c5d563929f7316cb0ced688831b3e
     {"id":{"name":"spr_Mini_Boss","path":"sprites/spr_Mini_Boss/spr_Mini_Boss.yy",},"order":3,},
     {"id":{"name":"spr_Player_1","path":"sprites/spr_Player_1/spr_Player_1.yy",},"order":5,},
     {"id":{"name":"spr_Player_2","path":"sprites/spr_Player_2/spr_Player_2.yy",},"order":6,},
