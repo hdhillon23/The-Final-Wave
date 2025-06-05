@@ -37,9 +37,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_right","path":"rooms/rm_right/rm_right.yy",},},
     {"roomId":{"name":"rm_middle","path":"rooms/rm_middle/rm_middle.yy",},},
     {"roomId":{"name":"rm_left","path":"rooms/rm_left/rm_left.yy",},},
-    {"roomId":{"name":"rm_right","path":"rooms/rm_right/rm_right.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
