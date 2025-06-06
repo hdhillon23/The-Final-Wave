@@ -18,7 +18,6 @@
     {"id":{"name":"obj_room_right_change_bottom_right","path":"objects/obj_room_right_change_bottom_right/obj_room_right_change_bottom_right.yy",},"order":9,},
     {"id":{"name":"obj_room_left_change","path":"objects/obj_room_left_change/obj_room_left_change.yy",},"order":4,},
     {"id":{"name":"spr_objects","path":"sprites/spr_objects/spr_objects.yy",},"order":13,},
-    {"id":{"name":"nazi_zombies_characters_by_im_not_crying_d5q09km","path":"sprites/nazi_zombies_characters_by_im_not_crying_d5q09km/nazi_zombies_characters_by_im_not_crying_d5q09km.yy",},"order":14,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":5,},
     {"id":{"name":"spr_Mini_Boss","path":"sprites/spr_Mini_Boss/spr_Mini_Boss.yy",},"order":3,},
     {"id":{"name":"room_3","path":"sprites/room_3/room_3.yy",},"order":12,},
