@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fence_front",
+  "name": "obj_player",
   "spriteId": {
-    "name": "spr_fence_front",
-    "path": "sprites/spr_fence_front/spr_fence_front.yy",
+    "name": "spr_Player_practice",
+    "path": "sprites/spr_Player_practice/spr_Player_practice.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

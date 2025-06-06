@@ -6,8 +6,8 @@
     "name": "spr_Border",
     "path": "sprites/spr_Border/spr_Border.yy",
   },
-  "solid": false,
-  "visible": true,
+  "solid": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

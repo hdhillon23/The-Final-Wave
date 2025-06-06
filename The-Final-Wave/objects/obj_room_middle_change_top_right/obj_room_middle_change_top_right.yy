@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fence_front",
+  "name": "obj_room_middle_change_top_right",
   "spriteId": {
-    "name": "spr_fence_front",
-    "path": "sprites/spr_fence_front/spr_fence_front.yy",
+    "name": "spr_Border",
+    "path": "sprites/spr_Border/spr_Border.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

@@ -6,7 +6,7 @@
     "name": "spr_fence_side",
     "path": "sprites/spr_fence_side/spr_fence_side.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
