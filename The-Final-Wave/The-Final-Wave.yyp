@@ -56,10 +56,17 @@
     "children": [],
   },
   "RoomOrderNodes": [
+<<<<<<< Updated upstream
     {"roomId":{"name":"rm_Main_menu","path":"rooms/rm_Main_menu/rm_Main_menu.yy",},},
     {"roomId":{"name":"rm_game_room_1_player","path":"rooms/rm_game_room_1_player/rm_game_room_1_player.yy",},},
     {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"roomId":{"name":"rm_Game_over","path":"rooms/rm_Game_over/rm_Game_over.yy",},},
+=======
+    {"roomId":{"name":"rm_game_room_1_player","path":"rooms/rm_game_room_1_player/rm_game_room_1_player.yy",},},
+    {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
+    {"roomId":{"name":"rm_Game_over","path":"rooms/rm_Game_over/rm_Game_over.yy",},},
+    {"roomId":{"name":"rm_Main_menu","path":"rooms/rm_Main_menu/rm_Main_menu.yy",},},
+>>>>>>> Stashed changes
     {"roomId":{"name":"rm_Player_selection","path":"rooms/rm_Player_selection/rm_Player_selection.yy",},},
     {"roomId":{"name":"rm_game_room_2_player","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},},
   ],

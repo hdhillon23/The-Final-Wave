@@ -7,7 +7,11 @@
     "path": "sprites/spr_Border/spr_Border.yy",
   },
   "solid": false,
+<<<<<<< Updated upstream
   "visible": false,
+=======
+  "visible": true,
+>>>>>>> Stashed changes
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
