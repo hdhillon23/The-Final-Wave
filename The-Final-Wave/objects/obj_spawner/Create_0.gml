@@ -1,0 +1,1 @@
+instance_create_layer(obj_spawner.x, obj_spawner.y, "Instances", global.spawn_skin);
