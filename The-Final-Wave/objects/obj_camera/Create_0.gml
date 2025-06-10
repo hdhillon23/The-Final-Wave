@@ -1,10 +1,10 @@
 /// @description Camera Data
-playerList[0] = obj_player1_practice;
-playerList[1] = obj_player2_practice;
+playerList[0] = obj_Player_1;
+playerList[1] = obj_Player_2;
 
 view_enabled = true;
 
-var width = 1000, height = 800, scale = 1;
+var width = 2000, height = 1000, scale = 1.5;
 
 global.Cameras = undefined;
 for(var i = 0; i < array_length_1d(playerList); ++i) {
