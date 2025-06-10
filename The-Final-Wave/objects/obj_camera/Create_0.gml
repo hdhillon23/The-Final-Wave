@@ -4,7 +4,7 @@ playerList[1] = obj_Player_2;
 
 view_enabled = true;
 
-var width = 2000, height = 1000, scale = 1.5;
+var width = 1000, height = 500, scale = 1.75;
 
 global.Cameras = undefined;
 for(var i = 0; i < array_length_1d(playerList); ++i) {
