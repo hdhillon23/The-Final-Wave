@@ -5,13 +5,13 @@ var temp_vspeed = 0; // Vertical movement variable
 // Horizontal movement
 if (keyboard_check(ord("D"))) 
 {
-    temp_hspeed = 5;
+    temp_hspeed = 4;
     sprite_index = spr_Player_1_Right;
     last_direction = 1;
 }
 else if (keyboard_check(ord("A"))) 
 {
-    temp_hspeed = -5;
+    temp_hspeed = -4;
     sprite_index = spr_Player_1_Left;
     last_direction = -1;
 }
@@ -27,13 +27,13 @@ else
 // Vertical movement
 if (keyboard_check(ord("W"))) 
 {
-    temp_vspeed = -5; // Move up
+    temp_vspeed = -4; // Move up
     sprite_index = spr_Player_1_Up;
     last_direction = 2;
 }
 else if (keyboard_check(ord("S"))) 
 {
-    temp_vspeed = 5; // Move down
+    temp_vspeed = 4; // Move down
     sprite_index = spr_Player_1_Down;
     last_direction = -2;
 }
