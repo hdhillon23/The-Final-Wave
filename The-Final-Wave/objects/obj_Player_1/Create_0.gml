@@ -4,3 +4,5 @@ health = max_health;
 // Initialize last_direction to a default value
 last_direction = 1; 
 last_direction = -1; 
+
+facing_direction = 0;

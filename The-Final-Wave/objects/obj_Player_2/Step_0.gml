@@ -59,3 +59,7 @@ if (place_free(x, y + temp_vspeed))
 // Move the player
 x += hspeed;
 y += vspeed;
+
+//Set the Weapons position to follow the player
+obj_Start_Weapon.x = x;
+obj_Start_Weapon.y = y;
