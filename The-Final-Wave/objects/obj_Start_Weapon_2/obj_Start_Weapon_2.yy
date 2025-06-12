@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Start_Weapon",
+  "name": "obj_Start_Weapon_2",
   "spriteId": {
-    "name": "spr_Start_Weapon",
-    "path": "sprites/spr_Start_Weapon/spr_Start_Weapon.yy",
+    "name": "spr_Start_Weapon_1",
+    "path": "sprites/spr_Start_Weapon_1/spr_Start_Weapon_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

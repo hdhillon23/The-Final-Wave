@@ -60,6 +60,39 @@ if (place_free(x, y + temp_vspeed))
 x += hspeed;
 y += vspeed;
 
-//Set the Weapons position to follow the player
-obj_Start_Weapon.x = x;
-obj_Start_Weapon.y = y;
+// Set the Weapon's position to follow the player
+obj_Start_Weapon_2.x = x;
+obj_Start_Weapon_2.y = y;
+
+if (instance_exists(weapon_instance)) {
+    weapon_instance.x = x + 10; 
+    weapon_instance.y = y;
+}
+
+// Shooting with direction-specific bullets
+if (keyboard_check_pressed(ord("L"))) {
+    var bx = x;
+    var by = y;
+
+    switch (last_direction) {
+        case 1:  // Right
+            bx += 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Right);
+            break;
+
+        case -1: // Left
+            bx -= 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Left);
+            break;
+
+        case 2:  // Up
+            by -= 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Up);
+            break;
+
+        case -2: // Down
+            by += 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Down);
+            break;
+    }
+}
