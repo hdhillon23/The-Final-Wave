@@ -41,9 +41,13 @@ x += hspeed;
 y += vspeed;
 
 // Set the Weapon's position to follow the player
-obj_Start_Weapon.x = x;
-obj_Start_Weapon.y = y;
+obj_Start_Weapon_1.x = x;
+obj_Start_Weapon_1.y = y;
 
+if (instance_exists(weapon_instance)) {
+    weapon_instance.x = x; 
+    weapon_instance.y = y;
+}
 
 // Shooting with direction-specific bullets
 if (keyboard_check_pressed(ord("G"))) {
