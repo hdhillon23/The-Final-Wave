@@ -5,4 +5,6 @@ health = max_health;
 last_direction = 1; 
 last_direction = -1; 
 
-facing_direction = 0;
+if (!layer_exists("Instances")) {
+    layer_create(-100, "Instances");
+}
