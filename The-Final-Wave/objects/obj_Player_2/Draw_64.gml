@@ -1,16 +1,20 @@
-// Draw the object's sprite
-draw_self();
+// Convert each player's world coordinates to screen coordinates
+var screen_x = camera_get_view_x(view_camera[0]);
+var screen_y = camera_get_view_y(view_camera[0]);
 
-// Calculate health percentage
-var hp_percent = (health / max_health) * 100;
+// Make sure the health bar is drawn relative to THIS object
+var bar_x = x - screen_x - 40;
+var bar_y = y - screen_y - 30;
 
-// Set health bar position above the object
-var bar_width = 120;
-var bar_height = 12;
-var x1 = x - bar_width / 4;
-var y1 = y - sprite_height / 2 - 10;
-var x2 = x + bar_width / 2;
-var y2 = y1 + bar_height;
+// Health bar dimensions
+var bar_width = 100;
+var bar_height = 10;
 
-// Draw the health bar
-draw_healthbar(x1, y1, x2, y2, hp_percent, c_black, c_red, c_lime, 0, true, true);
+// Draw background bar
+draw_set_color(c_black);
+draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
+
+// Draw health portion
+var health_percentage = health / max_health;
+draw_set_color(c_lime);
+draw_rectangle(bar_x, bar_y, bar_x + (bar_width * health_percentage), bar_y + bar_height, false);
