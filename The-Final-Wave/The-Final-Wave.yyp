@@ -3,7 +3,6 @@
   "resourceVersion": "1.6",
   "name": "The-Final-Wave",
   "resources": [
-    {"id":{"name":"obj_show_wave_1","path":"objects/obj_show_wave_1/obj_show_wave_1.yy",},"order":10,},
     {"id":{"name":"obj_1_player_button","path":"objects/obj_1_player_button/obj_1_player_button.yy",},"order":2,},
     {"id":{"name":"spr_Player_2_Left_Idle","path":"sprites/spr_Player_2_Left_Idle/spr_Player_2_Left_Idle.yy",},"order":3,},
     {"id":{"name":"spr_wave_2","path":"sprites/spr_wave_2/spr_wave_2.yy",},"order":1,},
@@ -13,58 +12,61 @@
     {"id":{"name":"spr_End_Boss","path":"sprites/spr_End_Boss/spr_End_Boss.yy",},"order":1,},
     {"id":{"name":"spr_Shooting_Zombie","path":"sprites/spr_Shooting_Zombie/spr_Shooting_Zombie.yy",},"order":7,},
     {"id":{"name":"obj_2_player_button","path":"objects/obj_2_player_button/obj_2_player_button.yy",},"order":3,},
-    {"id":{"name":"obj_wave_4","path":"objects/obj_wave_4/obj_wave_4.yy",},"order":2,},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":5,},
     {"id":{"name":"spr_Player_1_Left","path":"sprites/spr_Player_1_Left/spr_Player_1_Left.yy",},"order":1,},
     {"id":{"name":"spr_Player_1_Left_Idle","path":"sprites/spr_Player_1_Left_Idle/spr_Player_1_Left_Idle.yy",},"order":5,},
+    {"id":{"name":"obj_Start_Weapon","path":"objects/obj_Start_Weapon/obj_Start_Weapon.yy",},"order":0,},
     {"id":{"name":"spr_Border","path":"sprites/spr_Border/spr_Border.yy",},"order":0,},
     {"id":{"name":"spr_Normal_Zombie","path":"sprites/spr_Normal_Zombie/spr_Normal_Zombie.yy",},"order":2,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":9,},
     {"id":{"name":"main_menu","path":"sprites/main_menu/main_menu.yy",},"order":1,},
     {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":8,},
-    {"id":{"name":"obj_wave_1","path":"objects/obj_wave_1/obj_wave_1.yy",},"order":0,},
     {"id":{"name":"spr_Player_1_Up","path":"sprites/spr_Player_1_Up/spr_Player_1_Up.yy",},"order":0,},
     {"id":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"order":15,},
     {"id":{"name":"spr_wave_5","path":"sprites/spr_wave_5/spr_wave_5.yy",},"order":5,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":0,},
     {"id":{"name":"spr_wave_3","path":"sprites/spr_wave_3/spr_wave_3.yy",},"order":2,},
+    {"id":{"name":"spr_Bullet_Up","path":"sprites/spr_Bullet_Up/spr_Bullet_Up.yy",},"order":1,},
     {"id":{"name":"obj_player_selection_button","path":"objects/obj_player_selection_button/obj_player_selection_button.yy",},"order":4,},
     {"id":{"name":"spr_Player_2_Up_Idle","path":"sprites/spr_Player_2_Up_Idle/spr_Player_2_Up_Idle.yy",},"order":5,},
     {"id":{"name":"game_over","path":"sprites/game_over/game_over.yy",},"order":4,},
     {"id":{"name":"spr_Player_1_Right_Idle","path":"sprites/spr_Player_1_Right_Idle/spr_Player_1_Right_Idle.yy",},"order":6,},
     {"id":{"name":"obj_main_menu_button","path":"objects/obj_main_menu_button/obj_main_menu_button.yy",},"order":0,},
     {"id":{"name":"game_room","path":"sprites/game_room/game_room.yy",},"order":0,},
-    {"id":{"name":"obj_wave_5","path":"objects/obj_wave_5/obj_wave_5.yy",},"order":6,},
     {"id":{"name":"spr_objects","path":"sprites/spr_objects/spr_objects.yy",},"order":13,},
+    {"id":{"name":"spr_Bullet_Down","path":"sprites/spr_Bullet_Down/spr_Bullet_Down.yy",},"order":4,},
     {"id":{"name":"obj_Player_1","path":"objects/obj_Player_1/obj_Player_1.yy",},"order":0,},
     {"id":{"name":"spr_End_Boss_Death","path":"sprites/spr_End_Boss_Death/spr_End_Boss_Death.yy",},"order":20,},
     {"id":{"name":"spr_Player_1_Up_Idle","path":"sprites/spr_Player_1_Up_Idle/spr_Player_1_Up_Idle.yy",},"order":4,},
+    {"id":{"name":"spr_Start_Weapon","path":"sprites/spr_Start_Weapon/spr_Start_Weapon.yy",},"order":0,},
     {"id":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},"order":4,},
     {"id":{"name":"spr_Mini_Boss","path":"sprites/spr_Mini_Boss/spr_Mini_Boss.yy",},"order":3,},
     {"id":{"name":"obj_Player_2","path":"objects/obj_Player_2/obj_Player_2.yy",},"order":1,},
     {"id":{"name":"spr_Player_2_Down_Idle","path":"sprites/spr_Player_2_Down_Idle/spr_Player_2_Down_Idle.yy",},"order":1,},
+    {"id":{"name":"obj_Bullet_Right","path":"objects/obj_Bullet_Right/obj_Bullet_Right.yy",},"order":2,},
+    {"id":{"name":"spr_Bullet_Left","path":"sprites/spr_Bullet_Left/spr_Bullet_Left.yy",},"order":2,},
+    {"id":{"name":"obj_Bullet_Left","path":"objects/obj_Bullet_Left/obj_Bullet_Left.yy",},"order":3,},
     {"id":{"name":"spr_Player_2_Right_Idle","path":"sprites/spr_Player_2_Right_Idle/spr_Player_2_Right_Idle.yy",},"order":7,},
     {"id":{"name":"player_selection","path":"sprites/player_selection/player_selection.yy",},"order":2,},
     {"id":{"name":"controls","path":"sprites/controls/controls.yy",},"order":3,},
-    {"id":{"name":"obj_wave_3","path":"objects/obj_wave_3/obj_wave_3.yy",},"order":3,},
     {"id":{"name":"obj_fence_side","path":"objects/obj_fence_side/obj_fence_side.yy",},"order":2,},
-    {"id":{"name":"obj_wave_2","path":"objects/obj_wave_2/obj_wave_2.yy",},"order":1,},
     {"id":{"name":"spr_Player_1_Down_Idle","path":"sprites/spr_Player_1_Down_Idle/spr_Player_1_Down_Idle.yy",},"order":7,},
     {"id":{"name":"spr_fence_front","path":"sprites/spr_fence_front/spr_fence_front.yy",},"order":14,},
     {"id":{"name":"spr_wave_4","path":"sprites/spr_wave_4/spr_wave_4.yy",},"order":3,},
     {"id":{"name":"spr_Player_2_Right","path":"sprites/spr_Player_2_Right/spr_Player_2_Right.yy",},"order":6,},
+    {"id":{"name":"obj_Bullet_Up","path":"objects/obj_Bullet_Up/obj_Bullet_Up.yy",},"order":1,},
     {"id":{"name":"spr_Player_2_Down","path":"sprites/spr_Player_2_Down/spr_Player_2_Down.yy",},"order":0,},
+    {"id":{"name":"spr_Bullet_Right","path":"sprites/spr_Bullet_Right/spr_Bullet_Right.yy",},"order":3,},
     {"id":{"name":"spr_Player_1_Right","path":"sprites/spr_Player_1_Right/spr_Player_1_Right.yy",},"order":2,},
     {"id":{"name":"spr_Player_1_Down","path":"sprites/spr_Player_1_Down/spr_Player_1_Down.yy",},"order":3,},
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},"order":7,},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"order":17,},
     {"id":{"name":"rm_game_room_2_player","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},"order":8,},
     {"id":{"name":"spr_wave_6","path":"sprites/spr_wave_6/spr_wave_6.yy",},"order":6,},
-    {"id":{"name":"obj_wave_7","path":"objects/obj_wave_7/obj_wave_7.yy",},"order":5,},
     {"id":{"name":"spr_Player_2_Up","path":"sprites/spr_Player_2_Up/spr_Player_2_Up.yy",},"order":4,},
+    {"id":{"name":"obj_Bullet_Down","path":"objects/obj_Bullet_Down/obj_Bullet_Down.yy",},"order":4,},
     {"id":{"name":"spr_Player_2_Left","path":"sprites/spr_Player_2_Left/spr_Player_2_Left.yy",},"order":2,},
     {"id":{"name":"spr_wave_1","path":"sprites/spr_wave_1/spr_wave_1.yy",},"order":0,},
-    {"id":{"name":"obj_wave_6","path":"objects/obj_wave_6/obj_wave_6.yy",},"order":4,},
     {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":19,},
     {"id":{"name":"obj_fence_front","path":"objects/obj_fence_front/obj_fence_front.yy",},"order":1,},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"order":3,},
@@ -114,7 +116,23 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"waves","folderPath":"folders/Sprites/waves.yy","order":33,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"waves","folderPath":"folders/Objects/waves.yy","order":11,},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> parent of b7f165b (Update The-Final-Wave.yyp)
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Weapons.yy","order":34,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Objects/Weapons.yy","order":10,},
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of b7f165b (Update The-Final-Wave.yyp)
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

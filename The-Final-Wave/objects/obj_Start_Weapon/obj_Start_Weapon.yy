@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Bullet_Down",
+  "name": "obj_Start_Weapon",
   "spriteId": {
-    "name": "spr_Bullet_Down",
-    "path": "sprites/spr_Bullet_Down/spr_Bullet_Down.yy",
+    "name": "spr_Start_Weapon",
+    "path": "sprites/spr_Start_Weapon/spr_Start_Weapon.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

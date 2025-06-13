@@ -5,13 +5,13 @@ var temp_vspeed = 0; // Vertical movement variable
 // Horizontal movement
 if (keyboard_check(vk_right)) 
 {
-    temp_hspeed = 4;
+    temp_hspeed = 5;
     sprite_index = spr_Player_2_Right;
     last_direction = 1;
 }
 else if (keyboard_check(vk_left))
 {
-    temp_hspeed = -4;
+    temp_hspeed = -5;
     sprite_index = spr_Player_2_Left;
     last_direction = -1;
 }
@@ -27,13 +27,13 @@ else
 // Vertical movement
 if (keyboard_check(vk_up)) 
 {
-    temp_vspeed = -4; // Move up
+    temp_vspeed = -5; // Move up
     sprite_index = spr_Player_2_Up;
     last_direction = 2;
 }
 else if (keyboard_check(vk_down)) 
 {
-    temp_vspeed = 4; // Move down
+    temp_vspeed = 5; // Move down
     sprite_index = spr_Player_2_Down;
     last_direction = -2;
 }
@@ -60,39 +60,6 @@ if (place_free(x, y + temp_vspeed))
 x += hspeed;
 y += vspeed;
 
-// Set the Weapon's position to follow the player
-obj_Start_Weapon_2.x = x;
-obj_Start_Weapon_2.y = y;
-
-if (instance_exists(weapon_instance)) {
-    weapon_instance.x = x; 
-    weapon_instance.y = y;
-}
-
-// Shooting with direction-specific bullets
-if (keyboard_check_pressed(ord("L"))) {
-    var bx = x;
-    var by = y;
-
-    switch (last_direction) {
-        case 1:  // Right
-            bx += 16;
-            instance_create_layer(bx, by, "Instances", obj_Bullet_Right);
-            break;
-
-        case -1: // Left
-            bx -= 16;
-            instance_create_layer(bx, by, "Instances", obj_Bullet_Left);
-            break;
-
-        case 2:  // Up
-            by -= 16;
-            instance_create_layer(bx, by, "Instances", obj_Bullet_Up);
-            break;
-
-        case -2: // Down
-            by += 16;
-            instance_create_layer(bx, by, "Instances", obj_Bullet_Down);
-            break;
-    }
-}
+//Set the Weapons position to follow the player
+obj_Start_Weapon.x = x;
+obj_Start_Weapon.y = y;

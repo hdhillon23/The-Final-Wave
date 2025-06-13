@@ -41,48 +41,34 @@ x += hspeed;
 y += vspeed;
 
 // Set the Weapon's position to follow the player
-obj_Start_Weapon_1.x = x;
-obj_Start_Weapon_1.y = y;
+obj_Start_Weapon.x = x;
+obj_Start_Weapon.y = y;
 
-if (instance_exists(weapon_instance)) {
-    weapon_instance.x = x; 
-    weapon_instance.y = y;
-}
 
-// Shooting with auto-reload
+// Shooting with direction-specific bullets
 if (keyboard_check_pressed(ord("G"))) {
-    if (!is_reloading && ammo > 0) {
-        ammo -= 1;
+    var bx = x;
+    var by = y;
 
-        var bx = x;
-        var by = y;
+    switch (last_direction) {
+        case 1:  // Right
+            bx += 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Right);
+            break;
 
-        switch (last_direction) {
-            case 1:  bx += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Right); break;
-            case -1: bx -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Left); break;
-            case 2:  by -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
-            case -2: by += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
-        }
+        case -1: // Left
+            bx -= 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Left);
+            break;
 
-    } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
-        is_reloading = true;
-        reload_timer = 120; // 2 seconds
+        case 2:  // Up
+            by -= 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Up);
+            break;
+
+        case -2: // Down
+            by += 16;
+            instance_create_layer(bx, by, "Instances", obj_Bullet_Down);
+            break;
     }
-}
-
-// 🔁 Reload timer countdown (this was missing!)
-if (is_reloading) {
-    reload_timer -= 1;
-    if (reload_timer <= 0) {
-        var needed = max_ammo - ammo;
-        var to_reload = min(needed, ammo_reserve);
-        ammo += to_reload;
-        ammo_reserve -= to_reload;
-        is_reloading = false;
-    }
-}
-
-// Ammo Station Refill
-if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
-    ammo_reserve = 30;
 }
