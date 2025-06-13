@@ -5,13 +5,13 @@ var temp_vspeed = 0; // Vertical movement variable
 // Horizontal movement
 if (keyboard_check(vk_right)) 
 {
-    temp_hspeed = 5;
+    temp_hspeed = 4;
     sprite_index = spr_Player_2_Right;
     last_direction = 1;
 }
 else if (keyboard_check(vk_left))
 {
-    temp_hspeed = -5;
+    temp_hspeed = -4;
     sprite_index = spr_Player_2_Left;
     last_direction = -1;
 }
@@ -27,13 +27,13 @@ else
 // Vertical movement
 if (keyboard_check(vk_up)) 
 {
-    temp_vspeed = -5; // Move up
+    temp_vspeed = -4; // Move up
     sprite_index = spr_Player_2_Up;
     last_direction = 2;
 }
 else if (keyboard_check(vk_down)) 
 {
-    temp_vspeed = 5; // Move down
+    temp_vspeed = 4; // Move down
     sprite_index = spr_Player_2_Down;
     last_direction = -2;
 }
@@ -65,7 +65,7 @@ obj_Start_Weapon_2.x = x;
 obj_Start_Weapon_2.y = y;
 
 if (instance_exists(weapon_instance)) {
-    weapon_instance.x = x + 10; 
+    weapon_instance.x = x; 
     weapon_instance.y = y;
 }
 
