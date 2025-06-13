@@ -1,5 +1,5 @@
-health = 100;
 max_health = 100;
+current_health = max_health;
 
 // Initialize last_direction to a default value
 last_direction = 1; 
