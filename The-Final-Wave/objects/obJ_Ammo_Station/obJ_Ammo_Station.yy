@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Normal_Zombie",
+  "name": "obJ_Ammo_Station",
   "spriteId": {
-    "name": "spr_Normal_Zombie",
-    "path": "sprites/spr_Normal_Zombie/spr_Normal_Zombie.yy",
+    "name": "spr_Ammo_Station",
+    "path": "sprites/spr_Ammo_Station/spr_Ammo_Station.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,13 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
