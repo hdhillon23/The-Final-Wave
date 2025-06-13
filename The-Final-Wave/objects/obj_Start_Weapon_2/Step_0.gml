@@ -22,14 +22,14 @@ if (instance_exists(obj_Player_2)) {
         case 2: // Up
             x = px;
             y = py - 16;
-            image_angle = 270;
+            image_angle = 90;
             image_xscale = 1;
             break;
 
         case -2: // Down
             x = px;
             y = py + 16;
-            image_angle = 90;
+            image_angle = 270;
             image_xscale = 1;
             break;
     }
