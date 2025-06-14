@@ -3,7 +3,10 @@
   "resourceVersion": "1.6",
   "name": "The-Final-Wave",
   "resources": [
+<<<<<<< Updated upstream
     {"id":{"name":"obj_Shooting_Zombie","path":"objects/obj_Shooting_Zombie/obj_Shooting_Zombie.yy",},"order":2,},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"obj_1_player_button","path":"objects/obj_1_player_button/obj_1_player_button.yy",},"order":2,},
     {"id":{"name":"spr_Player_2_Left_Idle","path":"sprites/spr_Player_2_Left_Idle/spr_Player_2_Left_Idle.yy",},"order":3,},
     {"id":{"name":"spr_wave_2","path":"sprites/spr_wave_2/spr_wave_2.yy",},"order":1,},
@@ -22,9 +25,13 @@
     {"id":{"name":"spr_Normal_Zombie","path":"sprites/spr_Normal_Zombie/spr_Normal_Zombie.yy",},"order":5,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":9,},
     {"id":{"name":"main_menu","path":"sprites/main_menu/main_menu.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_AR","path":"sprites/spr_AR/spr_AR.yy",},"order":6,},
     {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":2,},
     {"id":{"name":"obj_Normal_Zombie","path":"objects/obj_Normal_Zombie/obj_Normal_Zombie.yy",},"order":3,},
+=======
+    {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":8,},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_Player_1_Up","path":"sprites/spr_Player_1_Up/spr_Player_1_Up.yy",},"order":0,},
     {"id":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"order":15,},
     {"id":{"name":"obj_Display_AR","path":"objects/obj_Display_AR/obj_Display_AR.yy",},"order":6,},
@@ -79,7 +86,11 @@
     {"id":{"name":"obj_Bullet_Down","path":"objects/obj_Bullet_Down/obj_Bullet_Down.yy",},"order":4,},
     {"id":{"name":"spr_Player_2_Left","path":"sprites/spr_Player_2_Left/spr_Player_2_Left.yy",},"order":2,},
     {"id":{"name":"spr_wave_1","path":"sprites/spr_wave_1/spr_wave_1.yy",},"order":0,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":4,},
+=======
+    {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":19,},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_fence_front","path":"objects/obj_fence_front/obj_fence_front.yy",},"order":1,},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"order":3,},
   ],
