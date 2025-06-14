@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Ammo_Station",
+  "name": "obj_Display_AR",
   "spriteId": {
-    "name": "spr_Ammo_Station",
-    "path": "sprites/spr_Ammo_Station/spr_Ammo_Station.yy",
+    "name": "spr_Display_AR",
+    "path": "sprites/spr_Display_AR/spr_Display_AR.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Weapons",
+    "path": "folders/Objects/Weapons.yy",
   },
 }

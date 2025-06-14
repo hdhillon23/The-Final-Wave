@@ -83,6 +83,6 @@ if (is_reloading) {
 }
 
 // Ammo Station Refill
-if (place_meeting(x, y, obJ_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
+if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
     ammo_reserve = 30;
 }
