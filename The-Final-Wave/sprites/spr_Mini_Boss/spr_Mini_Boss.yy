@@ -138,7 +138,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "The-Final-Wave",
+    "path": "The-Final-Wave.yyp",
   },
 }
