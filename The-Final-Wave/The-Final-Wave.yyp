@@ -39,6 +39,7 @@
     {"id":{"name":"spr_Player_1_Right_Idle","path":"sprites/spr_Player_1_Right_Idle/spr_Player_1_Right_Idle.yy",},"order":6,},
     {"id":{"name":"obj_main_menu_button","path":"objects/obj_main_menu_button/obj_main_menu_button.yy",},"order":0,},
     {"id":{"name":"game_room","path":"sprites/game_room/game_room.yy",},"order":0,},
+    {"id":{"name":"obj_waves_shown","path":"objects/obj_waves_shown/obj_waves_shown.yy",},"order":13,},
     {"id":{"name":"spr_objects","path":"sprites/spr_objects/spr_objects.yy",},"order":13,},
     {"id":{"name":"spr_Start_Weapon_2","path":"sprites/spr_Start_Weapon_2/spr_Start_Weapon_2.yy",},"order":5,},
     {"id":{"name":"spr_Bullet_Down","path":"sprites/spr_Bullet_Down/spr_Bullet_Down.yy",},"order":4,},
