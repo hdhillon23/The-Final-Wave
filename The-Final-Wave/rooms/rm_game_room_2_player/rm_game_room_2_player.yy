@@ -17,6 +17,7 @@
   ],
   "layers": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68DDD8A_1","properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-120.0,"y":1475.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A8A5815_1","properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":-140.0,},
@@ -26,6 +27,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A31018A","properties":[],"isDnd":false,"objectId":{"name":"obj_Display_AR","path":"objects/obj_Display_AR/obj_Display_AR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4576.0,"y":1248.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
 =======
+=======
+>>>>>>> Stashed changes
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_2","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_78DCA072","spriteId":{"name":"spr_Border","path":"sprites/spr_Border/spr_Border.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":2.953125,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4164.0,"y":953.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_164A7D3C","spriteId":{"name":"spr_Border","path":"sprites/spr_Border/spr_Border.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.71875,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4228.0,"y":908.0,},
@@ -38,6 +41,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68DDD8A_1","properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-120.0,"y":1475.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A8A5815_1","properties":[],"isDnd":false,"objectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":-140.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_744360F4_1","spriteId":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-200.0,"y":-165.0,},
@@ -84,7 +90,11 @@
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7D99F8A3_1","spriteId":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6955.0,"y":1563.5,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_697F63C0_1","spriteId":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6955.0,"y":1663.5,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+=======
+      ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+>>>>>>> Stashed changes
 =======
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
 >>>>>>> Stashed changes
@@ -229,6 +239,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59EF5A84","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.609375,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6325.0,"y":224.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C3C47A5","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.609375,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6370.0,"y":238.0,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68912590","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.9668503,"scaleY":2.5625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4214.0,"y":908.23035,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72C1A72C","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.9668503,"scaleY":1.921875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4168.7266,"y":949.34546,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4EC1F512","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.9668503,"scaleY":1.546875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4254.0,"y":969.9999,},
@@ -241,6 +252,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_637BA8C4","properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.1875,"scaleY":2.671875,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6065.9224,"y":276.33594,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"game_room","path":"sprites/game_room/game_room.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+=======
+      ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"game_room","path":"sprites/game_room/game_room.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+>>>>>>> Stashed changes
 =======
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"game_room","path":"sprites/game_room/game_room.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -392,6 +407,7 @@
     {"name":"inst_59EF5A84","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_2C3C47A5","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"name":"inst_4359DFEE","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_68912590","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_72C1A72C","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
@@ -406,6 +422,8 @@
     {"name":"inst_1017FABD","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_4717DA34","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_5A31018A","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   ],

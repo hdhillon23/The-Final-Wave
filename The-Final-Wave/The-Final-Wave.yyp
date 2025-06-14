@@ -4,7 +4,10 @@
   "name": "The-Final-Wave",
   "resources": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"obj_Shooting_Zombie","path":"objects/obj_Shooting_Zombie/obj_Shooting_Zombie.yy",},"order":2,},
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     {"id":{"name":"obj_1_player_button","path":"objects/obj_1_player_button/obj_1_player_button.yy",},"order":2,},
@@ -31,6 +34,9 @@
     {"id":{"name":"obj_Normal_Zombie","path":"objects/obj_Normal_Zombie/obj_Normal_Zombie.yy",},"order":3,},
 =======
     {"id":{"name":"spr_Fast_Zombie","path":"sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",},"order":8,},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     {"id":{"name":"spr_Player_1_Up","path":"sprites/spr_Player_1_Up/spr_Player_1_Up.yy",},"order":0,},
     {"id":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"order":15,},
@@ -87,8 +93,11 @@
     {"id":{"name":"spr_Player_2_Left","path":"sprites/spr_Player_2_Left/spr_Player_2_Left.yy",},"order":2,},
     {"id":{"name":"spr_wave_1","path":"sprites/spr_wave_1/spr_wave_1.yy",},"order":0,},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":4,},
 =======
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":19,},
 >>>>>>> Stashed changes
     {"id":{"name":"obj_fence_front","path":"objects/obj_fence_front/obj_fence_front.yy",},"order":1,},
