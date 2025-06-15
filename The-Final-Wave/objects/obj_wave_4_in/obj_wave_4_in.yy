@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wave_7",
-  "spriteId": null,
+  "name": "obj_wave_4_in",
+  "spriteId": {
+    "name": "spr_wave_4_in",
+    "path": "sprites/spr_wave_4_in/spr_wave_4_in.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "waves",
-    "path": "folders/Objects/waves.yy",
+    "name": "Waves in 1",
+    "path": "folders/Objects/Waves in 1.yy",
   },
 }
