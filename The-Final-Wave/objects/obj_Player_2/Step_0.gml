@@ -114,6 +114,7 @@ if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("P"))) {
 if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("P"))) {
     current_health = 100
 	audio_play_sound(snd_Health_Refill, 1, false);
+	global.money -= 100
 }
 
 // Health regeneration every 25 seconds

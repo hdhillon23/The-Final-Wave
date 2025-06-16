@@ -7,7 +7,7 @@ if (can_spawn) {
     spawn_timer--;
 
     if (spawn_timer <= 0) {
-        instance_create_layer(x, y, "Instances", obj_Fast_Zombie); 
+        instance_create_layer(x, y, "Instances", obj_Fast_Zombie_Left); 
         spawn_timer = room_speed * 10;
     }
 }

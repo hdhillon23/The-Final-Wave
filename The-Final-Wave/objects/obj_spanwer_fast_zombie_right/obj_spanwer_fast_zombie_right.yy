@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_spanwer_fast_zombie",
+  "name": "obj_spanwer_fast_zombie_right",
   "spriteId": {
     "name": "spr_Border",
     "path": "sprites/spr_Border/spr_Border.yy",
