@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Display_AR",
+  "name": "obj_Bubble",
   "spriteId": {
-    "name": "spr_Display_AR",
-    "path": "sprites/spr_Display_AR/spr_Display_AR.yy",
+    "name": "spr_Bubble",
+    "path": "sprites/spr_Bubble/spr_Bubble.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
