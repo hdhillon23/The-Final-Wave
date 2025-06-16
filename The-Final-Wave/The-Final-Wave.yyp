@@ -78,6 +78,7 @@
     {"id":{"name":"spr_wave_6","path":"sprites/spr_wave_6/spr_wave_6.yy",},"order":6,},
     {"id":{"name":"spr_Player_2_Up","path":"sprites/spr_Player_2_Up/spr_Player_2_Up.yy",},"order":4,},
     {"id":{"name":"obj_Bullet_Down","path":"objects/obj_Bullet_Down/obj_Bullet_Down.yy",},"order":4,},
+    {"id":{"name":"obj_spanwer_normal_zombie","path":"objects/obj_spanwer_normal_zombie/obj_spanwer_normal_zombie.yy",},"order":14,},
     {"id":{"name":"spr_Player_2_Left","path":"sprites/spr_Player_2_Left/spr_Player_2_Left.yy",},"order":2,},
     {"id":{"name":"spr_wave_1","path":"sprites/spr_wave_1/spr_wave_1.yy",},"order":0,},
     {"id":{"name":"spr_Mini_Boss_Death","path":"sprites/spr_Mini_Boss_Death/spr_Mini_Boss_Death.yy",},"order":4,},
