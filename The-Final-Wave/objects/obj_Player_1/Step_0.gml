@@ -44,6 +44,27 @@ y += vspeed;
 obj_Start_Weapon_1.x = x;
 obj_Start_Weapon_1.y = y;
 
+// Face weapon according to direction
+switch (last_direction) {
+    case 1: // Right
+        obj_Start_Weapon_1.image_angle = 0;
+        obj_Start_Weapon_1.image_xscale = 1;
+        break;
+    case -1: // Left
+        obj_Start_Weapon_1.image_angle = 0;
+        obj_Start_Weapon_1.image_xscale = -1; // Flips horizontally
+        break;
+    case 2: // Moving Up → Weapon should face down
+        obj_Start_Weapon_1.image_angle = 90;
+        obj_Start_Weapon_1.image_xscale = 1;
+        break;
+    case -2: // Moving Down → Weapon should face up
+        obj_Start_Weapon_1.image_angle = 270;
+        obj_Start_Weapon_1.image_xscale = 1;
+        break;
+}
+
+
 if (instance_exists(weapon_instance)) {
     weapon_instance.x = x; 
     weapon_instance.y = y;
@@ -53,7 +74,7 @@ if (instance_exists(weapon_instance)) {
 if (keyboard_check_pressed(ord("G"))) {
     if (!is_reloading && ammo > 0) {
         ammo -= 1;
-		audio_play_sound(snd_Shooting, 1, false);
+        audio_play_sound(snd_Shooting, 1, false);
 
         var bx = x;
         var by = y;
@@ -68,11 +89,11 @@ if (keyboard_check_pressed(ord("G"))) {
     } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
         is_reloading = true;
         reload_timer = 120; // 2 seconds
-		audio_play_sound(snd_Reload_Effect, 1, false);
+        audio_play_sound(snd_Reload_Effect, 1, false);
     }
 }
 
-// 🔁 Reload timer countdown (this was missing!)
+// 🔁 Reload timer countdown
 if (is_reloading) {
     reload_timer -= 1;
     if (reload_timer <= 0) {
@@ -86,19 +107,18 @@ if (is_reloading) {
 
 // Ammo Station Refill
 if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
-    ammo_reserve = 30
-	audio_play_sound(snd_Ammo_Refill, 1, false);
+    ammo_reserve = 30;
+    audio_play_sound(snd_Ammo_Refill, 1, false);
 }
 
 // Health Station Refill
 if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("T"))) {
-    current_health = 100
-	audio_play_sound(snd_Health_Refill, 1, false);
+    current_health = 100;
+    audio_play_sound(snd_Health_Refill, 1, false);
 }
 
 // Health regeneration every 25 seconds
 regen_timer++;
-
 if (regen_timer >= regen_interval) {
     if (current_health < max_health) {
         current_health = min(current_health + regen_amount, max_health);

@@ -1,11 +1,12 @@
 // Player Health Setup
 max_health = 100;
 current_health = max_health;
+recently_hit = false;       // Player is not invincible at start
+hit_cooldown = 0;           // Timer for damage delay
 
 regen_timer = 0;
 regen_interval = 1500; // 25 seconds
 regen_amount = 10;     // Health gained each interval 
-
 
 // Ammo System
 ammo = 10;           // current magazine
@@ -26,12 +27,11 @@ if (!layer_exists("Instances")) {
 // Spawn and equip starting weapon
 weapon_instance = instance_create_layer(x, y, "Instances", obj_Start_Weapon_1);
 
-
 // Money variable
 global.money = 0;
 
 // High score variable
-global.high_score = 0
+global.high_score = 0;
 
 // Score variable
 global.score = 0;

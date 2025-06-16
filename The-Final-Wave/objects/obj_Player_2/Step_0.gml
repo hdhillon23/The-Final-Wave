@@ -44,6 +44,26 @@ y += vspeed;
 obj_Start_Weapon_2.x = x;
 obj_Start_Weapon_2.y = y;
 
+// Face weapon according to direction
+switch (last_direction) {
+    case 1: // Right
+        obj_Start_Weapon_2.image_angle = 0;
+        obj_Start_Weapon_2.image_xscale = 1;
+        break;
+    case -1: // Left
+        obj_Start_Weapon_2.image_angle = 0;
+        obj_Start_Weapon_2.image_xscale = -1; // Flips horizontally
+        break;
+    case 2: // Moving Up → Weapon should face down
+        obj_Start_Weapon_2.image_angle = 90;
+        obj_Start_Weapon_2.image_xscale = 1;
+        break;
+    case -2: // Moving Down → Weapon should face up
+        obj_Start_Weapon_2.image_angle = 270;
+        obj_Start_Weapon_2.image_xscale = 1;
+        break;
+}
+
 if (instance_exists(weapon_instance)) {
     weapon_instance.x = x; 
     weapon_instance.y = y;
