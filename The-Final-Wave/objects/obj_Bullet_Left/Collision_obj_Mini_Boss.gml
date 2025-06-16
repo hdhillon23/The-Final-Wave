@@ -6,7 +6,7 @@ audio_play_sound(snd_Death_Effect, 1, false);
 
 // When the player earns points
 global.score += 20;
-global.money += 20
+global.money += 20;
 
 if (global.score > global.high_score) {
     global.high_score = global.score;
