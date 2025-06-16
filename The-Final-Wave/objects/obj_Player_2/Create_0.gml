@@ -2,6 +2,10 @@
 max_health = 100;
 current_health = max_health;
 
+regen_timer = 0;
+regen_interval = 1500; // 25 seconds
+regen_amount = 10;     // Health gained each interval 
+
 // Ammo System
 ammo = 10;           // current magazine
 max_ammo = 10;       // max bullets per reload

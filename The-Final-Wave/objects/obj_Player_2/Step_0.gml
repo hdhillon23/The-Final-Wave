@@ -95,3 +95,13 @@ if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("P")))
     current_health = 100
 	audio_play_sound(snd_Health_Refill, 1, false);
 }
+
+// Health regeneration every 25 seconds
+regen_timer++;
+
+if (regen_timer >= regen_interval) {
+    if (current_health < max_health) {
+        current_health = min(current_health + regen_amount, max_health);
+    }
+    regen_timer = 0;
+}

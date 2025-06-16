@@ -1,13 +1,12 @@
+// Damage and knockback on enemy collision
 current_health -= 10;
-health = clamp(health, 0, max_health);
+current_health = clamp(current_health, 0, max_health);
+recently_hit = true;
 audio_play_sound(snd_Hit, 1, false);
 
-if (health <= 0) {
-    // Game over logic
+if (current_health <= 0) {
     show_message("Game Over!");
-    
-    // Restart the game
-    room_goto(rm_main_menu) // This will reset the game to its initial state
+    game_restart();
 }
 
-move_bounce_all(false); // Bounce off enemy when hit
+move_bounce_all(false);
