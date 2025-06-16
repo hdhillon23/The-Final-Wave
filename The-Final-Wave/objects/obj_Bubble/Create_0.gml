@@ -1,2 +1,4 @@
-price = 500;
+price = 250;
 is_active = false;
+name = " Bubble Sheild"
+

@@ -12,6 +12,7 @@
     {"id":{"name":"spr_bubble_blue","path":"sprites/spr_bubble_blue/spr_bubble_blue.yy",},"order":14,},
     {"id":{"name":"obj_controls_button","path":"objects/obj_controls_button/obj_controls_button.yy",},"order":1,},
     {"id":{"name":"obj_Fast_Zombie_Left","path":"objects/obj_Fast_Zombie_Left/obj_Fast_Zombie_Left.yy",},"order":6,},
+    {"id":{"name":"obj_bubble_blue","path":"objects/obj_bubble_blue/obj_bubble_blue.yy",},"order":17,},
     {"id":{"name":"rm_player_selection","path":"rooms/rm_player_selection/rm_player_selection.yy",},"order":6,},
     {"id":{"name":"spr_End_Boss","path":"sprites/spr_End_Boss/spr_End_Boss.yy",},"order":0,},
     {"id":{"name":"obj_2_player_button","path":"objects/obj_2_player_button/obj_2_player_button.yy",},"order":3,},
