@@ -9,4 +9,4 @@ if (health <= 0) {
     room_goto(rm_main_menu) // This will reset the game to its initial state
 }
 
-instance_destroy(other); // Destroy enemy
+move_bounce_all(false); // Bounce off enemy when hit

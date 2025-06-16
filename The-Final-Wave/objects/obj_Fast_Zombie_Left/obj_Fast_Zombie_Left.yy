@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Mini_Boss",
+  "name": "obj_Fast_Zombie_Left",
   "spriteId": {
-    "name": "spr_Mini_Boss",
-    "path": "sprites/spr_Mini_Boss/spr_Mini_Boss.yy",
+    "name": "spr_Fast_Zombie_Left",
+    "path": "sprites/spr_Fast_Zombie_Left/spr_Fast_Zombie_Left.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

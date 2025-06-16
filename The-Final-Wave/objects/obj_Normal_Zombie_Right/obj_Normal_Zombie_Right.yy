@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Fast_Zombie",
+  "name": "obj_Normal_Zombie_Right",
   "spriteId": {
-    "name": "spr_Fast_Zombie_Right",
-    "path": "sprites/spr_Fast_Zombie_Right/spr_Fast_Zombie_Right.yy",
+    "name": "spr_Normal_Zombie_Right",
+    "path": "sprites/spr_Normal_Zombie_Right/spr_Normal_Zombie_Right.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

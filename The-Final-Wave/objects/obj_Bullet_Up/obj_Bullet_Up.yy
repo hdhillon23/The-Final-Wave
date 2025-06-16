@@ -27,9 +27,9 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_End_Boss","path":"objects/obj_End_Boss/obj_End_Boss.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Fast_Zombie","path":"objects/obj_Fast_Zombie/obj_Fast_Zombie.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Fast_Zombie_Right","path":"objects/obj_Fast_Zombie_Right/obj_Fast_Zombie_Right.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Mini_Boss","path":"objects/obj_Mini_Boss/obj_Mini_Boss.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Normal_Zombie","path":"objects/obj_Normal_Zombie/obj_Normal_Zombie.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Normal_Zombie_Right","path":"objects/obj_Normal_Zombie_Right/obj_Normal_Zombie_Right.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
