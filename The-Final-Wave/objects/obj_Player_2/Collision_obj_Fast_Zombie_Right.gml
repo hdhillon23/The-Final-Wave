@@ -1,5 +1,6 @@
 current_health -= 10;
 health = clamp(health, 0, max_health);
+audio_play_sound(snd_Hit, 1, false);
 
 if (health <= 0) {
     // Game over logic
