@@ -16,5 +16,5 @@ if (!variable_global_exists("score")) {
 var draw_x = view_xport[0] + 28;
 var draw_y = 64; 
 
-draw_sprite(spr_money, 0, draw_x, draw_y);
+draw_sprite(spr_money, global.money, draw_x, draw_y);
 draw_text(draw_x + 30, draw_y + sprite_get_height(spr_money) * 0.5, string(global.score));

@@ -24,3 +24,9 @@ weapon_instance = instance_create_layer(x, y, "Instances", obj_Start_Weapon_1);
 
 // Money variable
 global.money = 0;
+
+// High score variable
+global.high_score = 0
+
+// Score variable
+global.score = 0;
