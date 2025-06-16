@@ -40,34 +40,34 @@ if (place_free(x, y + temp_vspeed)) vspeed = temp_vspeed;
 x += hspeed;
 y += vspeed;
 
-// Set the Weapon's position to follow the player
-obj_Start_Weapon_1.x = x;
-obj_Start_Weapon_1.y = y;
-
 // Face weapon according to direction
-switch (last_direction) {
-    case 1: // Right
-        obj_Start_Weapon_1.image_angle = 0;
-        obj_Start_Weapon_1.image_xscale = 1;
-        break;
-    case -1: // Left
-        obj_Start_Weapon_1.image_angle = 0;
-        obj_Start_Weapon_1.image_xscale = -1; // Flips horizontally
-        break;
-    case 2: // Moving Up → Weapon should face down
-        obj_Start_Weapon_1.image_angle = 90;
-        obj_Start_Weapon_1.image_xscale = 1;
-        break;
-    case -2: // Moving Down → Weapon should face up
-        obj_Start_Weapon_1.image_angle = 270;
-        obj_Start_Weapon_1.image_xscale = 1;
-        break;
-}
-
-
 if (instance_exists(weapon_instance)) {
-    weapon_instance.x = x; 
-    weapon_instance.y = y;
+    switch (last_direction) {
+        case 1: // Right
+            weapon_instance.x = 40 + 10;
+            weapon_instance.y = 60 + 2;
+            weapon_instance.image_angle = 0;
+            weapon_instance.image_xscale = 1;
+            break;
+        case -1: // Left
+            weapon_instance.x = 58 - 10;
+            weapon_instance.y = 61 + 2;
+            weapon_instance.image_angle = 0;
+            weapon_instance.image_xscale = -1;
+            break;
+        case 2: // Up
+            weapon_instance.x = 63;
+            weapon_instance.y = 63 - 12;
+            weapon_instance.image_angle = 90;
+            weapon_instance.image_xscale = 1;
+            break;
+        case -2: // Down
+            weapon_instance.x = 63;
+            weapon_instance.y = 63 + 12;
+            weapon_instance.image_angle = 270;
+            weapon_instance.image_xscale = 1;
+            break;
+    }
 }
 
 // Shooting with auto-reload
