@@ -9,6 +9,7 @@
     {"id":{"name":"spr_wave_7","path":"sprites/spr_wave_7/spr_wave_7.yy",},"order":4,},
     {"id":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"order":15,},
     {"id":{"name":"spr_Bubble","path":"sprites/spr_Bubble/spr_Bubble.yy",},"order":12,},
+    {"id":{"name":"spr_bubble_blue","path":"sprites/spr_bubble_blue/spr_bubble_blue.yy",},"order":14,},
     {"id":{"name":"obj_controls_button","path":"objects/obj_controls_button/obj_controls_button.yy",},"order":1,},
     {"id":{"name":"obj_Fast_Zombie_Left","path":"objects/obj_Fast_Zombie_Left/obj_Fast_Zombie_Left.yy",},"order":6,},
     {"id":{"name":"rm_player_selection","path":"rooms/rm_player_selection/rm_player_selection.yy",},"order":6,},
