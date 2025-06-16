@@ -53,6 +53,7 @@ if (instance_exists(weapon_instance)) {
 if (keyboard_check_pressed(ord("G"))) {
     if (!is_reloading && ammo > 0) {
         ammo -= 1;
+		audio_play_sound(snd_Shooting, 1, false);
 
         var bx = x;
         var by = y;
@@ -67,6 +68,7 @@ if (keyboard_check_pressed(ord("G"))) {
     } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
         is_reloading = true;
         reload_timer = 120; // 2 seconds
+		audio_play_sound(snd_Reload_Effect, 1, false);
     }
 }
 
