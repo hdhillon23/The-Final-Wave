@@ -1,4 +1,4 @@
-health -= 10;
+current_health -= 25;
 health = clamp(health, 0, max_health);
 
 if (health <= 0) {
