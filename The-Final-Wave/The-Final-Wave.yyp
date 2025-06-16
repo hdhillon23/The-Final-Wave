@@ -18,6 +18,7 @@
     {"id":{"name":"spr_Player_1_Left","path":"sprites/spr_Player_1_Left/spr_Player_1_Left.yy",},"order":1,},
     {"id":{"name":"spr_Player_1_Left_Idle","path":"sprites/spr_Player_1_Left_Idle/spr_Player_1_Left_Idle.yy",},"order":5,},
     {"id":{"name":"obj_Start_Weapon_1","path":"objects/obj_Start_Weapon_1/obj_Start_Weapon_1.yy",},"order":0,},
+    {"id":{"name":"spr_money","path":"sprites/spr_money/spr_money.yy",},"order":13,},
     {"id":{"name":"spr_Border","path":"sprites/spr_Border/spr_Border.yy",},"order":0,},
     {"id":{"name":"spr_Normal_Zombie_Right","path":"sprites/spr_Normal_Zombie_Right/spr_Normal_Zombie_Right.yy",},"order":5,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":6,},
