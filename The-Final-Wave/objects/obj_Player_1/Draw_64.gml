@@ -7,3 +7,5 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
 draw_text(draw_x + 20, draw_y, string(ammo) + " | " + string(ammo_reserve));
+
+
