@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Fast_Zombie",
   "spriteId": {
-    "name": "spr_Fast_Zombie",
-    "path": "sprites/spr_Fast_Zombie/spr_Fast_Zombie.yy",
+    "name": "spr_Fast_Zombie_Right",
+    "path": "sprites/spr_Fast_Zombie_Right/spr_Fast_Zombie_Right.yy",
   },
   "solid": false,
   "visible": true,

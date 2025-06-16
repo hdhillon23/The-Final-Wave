@@ -6,7 +6,7 @@
     "name": "spr_Ammo_Station",
     "path": "sprites/spr_Ammo_Station/spr_Ammo_Station.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

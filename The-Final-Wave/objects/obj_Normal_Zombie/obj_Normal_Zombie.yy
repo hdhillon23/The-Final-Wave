@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Normal_Zombie",
   "spriteId": {
-    "name": "spr_Normal_Zombie",
-    "path": "sprites/spr_Normal_Zombie/spr_Normal_Zombie.yy",
+    "name": "spr_Normal_Zombie_Right",
+    "path": "sprites/spr_Normal_Zombie_Right/spr_Normal_Zombie_Right.yy",
   },
   "solid": false,
   "visible": true,
