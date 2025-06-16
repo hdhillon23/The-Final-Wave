@@ -89,3 +89,9 @@ if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
     ammo_reserve = 30
 	audio_play_sound(snd_Ammo_Refill, 1, false);
 }
+
+// Health Station Refill
+if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("T"))) {
+    current_health = 100
+	audio_play_sound(snd_Health_Refill, 1, false);
+}
