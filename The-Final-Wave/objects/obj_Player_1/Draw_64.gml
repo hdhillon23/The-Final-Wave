@@ -8,4 +8,13 @@ draw_set_valign(fa_middle);
 draw_set_color(c_white);
 draw_text(draw_x + 20, draw_y, string(ammo) + " | " + string(ammo_reserve));
 
+// Add money to buy weaponds
+if (!variable_global_exists("score")) {
+    global.score = 0;
+}
 
+var draw_x = view_xport[0] + 28;
+var draw_y = 64; 
+
+draw_sprite(spr_money, 0, draw_x, draw_y);
+draw_text(draw_x + 30, draw_y + sprite_get_height(spr_money) * 0.5, string(global.score));
