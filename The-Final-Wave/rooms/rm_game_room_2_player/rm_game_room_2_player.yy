@@ -25,6 +25,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A31018A","properties":[],"isDnd":false,"objectId":{"name":"obj_Display_AR","path":"objects/obj_Display_AR/obj_Display_AR.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4576.0,"y":1248.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_562F529","properties":[],"isDnd":false,"objectId":{"name":"obj_spanwer_normal_zombie","path":"objects/obj_spanwer_normal_zombie/obj_spanwer_normal_zombie.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4512.0,"y":1088.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CE0B5E8","properties":[],"isDnd":false,"objectId":{"name":"obj_Normal_Zombie","path":"objects/obj_Normal_Zombie/obj_Normal_Zombie.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.31034482,"scaleY":0.24210526,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4544.0,"y":928.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40FD9331","properties":[],"isDnd":false,"objectId":{"name":"obj_money_player_1","path":"objects/obj_money_player_1/obj_money_player_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4768.0,"y":1056.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_744360F4_1","spriteId":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-200.0,"y":-165.0,},
@@ -385,6 +386,7 @@
     {"name":"inst_5A31018A","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_562F529","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_6CE0B5E8","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
+    {"name":"inst_40FD9331","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
