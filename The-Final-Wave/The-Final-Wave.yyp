@@ -7,7 +7,7 @@
     {"id":{"name":"spr_Player_2_Left_Idle","path":"sprites/spr_Player_2_Left_Idle/spr_Player_2_Left_Idle.yy",},"order":3,},
     {"id":{"name":"spr_wave_2","path":"sprites/spr_wave_2/spr_wave_2.yy",},"order":1,},
     {"id":{"name":"spr_wave_7","path":"sprites/spr_wave_7/spr_wave_7.yy",},"order":4,},
-    {"id":{"name":"obj_Bg_Music","path":"objects/obj_Bg_Music/obj_Bg_Music.yy",},"order":15,},
+    {"id":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"order":15,},
     {"id":{"name":"spr_Bubble","path":"sprites/spr_Bubble/spr_Bubble.yy",},"order":12,},
     {"id":{"name":"obj_controls_button","path":"objects/obj_controls_button/obj_controls_button.yy",},"order":1,},
     {"id":{"name":"obj_Fast_Zombie_Left","path":"objects/obj_Fast_Zombie_Left/obj_Fast_Zombie_Left.yy",},"order":6,},
