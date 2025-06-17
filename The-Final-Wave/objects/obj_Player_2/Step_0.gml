@@ -105,7 +105,7 @@ if (is_reloading) {
 // Ammo Station Refill
 if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("P"))) {
     if (global.money >= 30) {
-        ammo_reserve = 30;
+        ammo_reserve += 30;
         audio_play_sound(snd_Ammo_Refill, 1, false);
         global.money -= 30;
     } else {

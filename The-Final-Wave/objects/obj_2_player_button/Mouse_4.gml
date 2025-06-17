@@ -1,3 +1,4 @@
+
 room_goto(rm_game_room_2_player)
 
 
