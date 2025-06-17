@@ -12,5 +12,5 @@ draw_rectangle(bar_x - 1, bar_y - 1, bar_x + bar_width + 1, bar_y + bar_height +
 
 // Fill of health bar
 var health_percent = current_health / max_health;
-draw_set_color(object_index == obj_Mini_Boss ? c_lime : c_red);
+draw_set_color(object_index == obj_Mini_Boss ? c_red : c_lime);
 draw_rectangle(bar_x, bar_y, bar_x + (health_percent * bar_width), bar_y + bar_height, false);
