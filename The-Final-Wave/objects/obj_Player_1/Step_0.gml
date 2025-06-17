@@ -145,7 +145,3 @@ if (regen_timer >= regen_interval) {
     }
     regen_timer = 0;
 }
-
-if (double_damager_timer > 0) {
-    double_damager_timer--;
-}

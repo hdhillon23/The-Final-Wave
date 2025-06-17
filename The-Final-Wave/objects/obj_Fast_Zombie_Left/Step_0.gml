@@ -21,7 +21,7 @@ if (p2 != noone) {
     }
 }
 
-var follow_range = 200; // adjust to your liking
+var follow_range = 1000; // adjust to your liking
 
 if (target != noone && min_dist < follow_range) {
     move_towards_point(target.x, target.y, 2); // enemy moves toward closest player
