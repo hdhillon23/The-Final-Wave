@@ -82,6 +82,7 @@
     {"id":{"name":"spr_Player_2_Right","path":"sprites/spr_Player_2_Right/spr_Player_2_Right.yy",},"order":6,},
     {"id":{"name":"obj_Bullet_Up","path":"objects/obj_Bullet_Up/obj_Bullet_Up.yy",},"order":1,},
     {"id":{"name":"spr_Player_2_Down","path":"sprites/spr_Player_2_Down/spr_Player_2_Down.yy",},"order":0,},
+    {"id":{"name":"obj_high_score","path":"objects/obj_high_score/obj_high_score.yy",},"order":22,},
     {"id":{"name":"spr_Ammo_Station","path":"sprites/spr_Ammo_Station/spr_Ammo_Station.yy",},"order":11,},
     {"id":{"name":"snd_Shooting","path":"sounds/snd_Shooting/snd_Shooting.yy",},"order":2,},
     {"id":{"name":"snd_Ammo_Refill","path":"sounds/snd_Ammo_Refill/snd_Ammo_Refill.yy",},"order":4,},

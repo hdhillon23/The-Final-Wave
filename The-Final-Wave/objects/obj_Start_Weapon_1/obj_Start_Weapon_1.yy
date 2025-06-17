@@ -7,7 +7,7 @@
     "path": "sprites/spr_Start_Weapon_1/spr_Start_Weapon_1.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -56,19 +56,21 @@ if (instance_exists(weapon_instance)) {
             weapon_instance.image_xscale = -1;
             break;
         case 2: // Up
-            weapon_instance.x = 63;
+            weapon_instance.x = 63 - 8; // Moved left
             weapon_instance.y = 63 - 12;
             weapon_instance.image_angle = 90;
-            weapon_instance.image_xscale = 1;
+            weapon_instance.image_xscale = -1;
             break;
         case -2: // Down
-            weapon_instance.x = 63;
+            weapon_instance.x = 63 + 8; // Moved right
             weapon_instance.y = 63 + 12;
             weapon_instance.image_angle = 270;
             weapon_instance.image_xscale = 1;
             break;
     }
 }
+
+
 
 // Shooting with auto-reload
 if (keyboard_check_pressed(ord("G"))) {
@@ -86,19 +88,6 @@ if (keyboard_check_pressed(ord("G"))) {
             case 2:  by -= 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
             case -2: by += 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
         }
-
-        // Apply double damage if active
-        if (double_damager_timer > 0) {
-            bullet.damage = 20; // boosted
-        } else {
-            bullet.damage = 10; // regular
-        }
-
-    } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
-        is_reloading = true;
-        reload_timer = 120;
-        audio_play_sound(snd_Reload_Effect, 1, false);
-    }
 }
 
 
@@ -136,12 +125,12 @@ if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("T")))
     }
 }
 
-
 // Health regeneration every 25 seconds
-regen_timer++;
 if (regen_timer >= regen_interval) {
     if (current_health < max_health) {
         current_health = min(current_health + regen_amount, max_health);
     }
     regen_timer = 0;
+}
+
 }
