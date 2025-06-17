@@ -79,19 +79,28 @@ if (keyboard_check_pressed(ord("G"))) {
         var bx = x;
         var by = y;
 
+        var bullet;
         switch (last_direction) {
-            case 1:  bx += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Right); break;
-            case -1: bx -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Left); break;
-            case 2:  by -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
-            case -2: by += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
+            case 1:  bx += 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Right); break;
+            case -1: bx -= 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Left); break;
+            case 2:  by -= 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
+            case -2: by += 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
+        }
+
+        // Apply double damage if active
+        if (double_damager_timer > 0) {
+            bullet.damage = 20; // boosted
+        } else {
+            bullet.damage = 10; // regular
         }
 
     } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
         is_reloading = true;
-        reload_timer = 120; // 2 seconds
+        reload_timer = 120;
         audio_play_sound(snd_Reload_Effect, 1, false);
     }
 }
+
 
 // 🔁 Reload timer countdown
 if (is_reloading) {
@@ -107,17 +116,26 @@ if (is_reloading) {
 
 // Ammo Station Refill
 if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("T"))) {
-    ammo_reserve = 30;
-    audio_play_sound(snd_Ammo_Refill, 1, false);
-	global.money -=30
+    if (global.money >= 30) {
+        ammo_reserve = 30;
+        audio_play_sound(snd_Ammo_Refill, 1, false);
+        global.money -= 30;
+    } else {
+        show_message("Not enough money.");
+    }
 }
 
 // Health Station Refill
 if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("T"))) {
-    current_health = 100;
-    audio_play_sound(snd_Health_Refill, 1, false);
-	global.money -= 100
+    if (global.money >= 100) {
+        current_health = 100;
+        audio_play_sound(snd_Health_Refill, 1, false);
+        global.money -= 100;
+    } else {
+        show_message("Not enough money.");
+    }
 }
+
 
 // Health regeneration every 25 seconds
 regen_timer++;
@@ -126,4 +144,8 @@ if (regen_timer >= regen_interval) {
         current_health = min(current_health + regen_amount, max_health);
     }
     regen_timer = 0;
+}
+
+if (double_damager_timer > 0) {
+    double_damager_timer--;
 }

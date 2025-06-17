@@ -106,15 +106,24 @@ if (is_reloading) {
 
 // Ammo Station Refill
 if (place_meeting(x, y, obj_Ammo_Station) && keyboard_check_pressed(ord("P"))) {
-    ammo_reserve = 30;
-	audio_play_sound(snd_Ammo_Refill, 1, false);
+    if (global.money >= 30) {
+        ammo_reserve = 30;
+        audio_play_sound(snd_Ammo_Refill, 1, false);
+        global.money -= 30;
+    } else {
+        show_message("Not enough money.");
+    }
 }
 
 // Health Station Refill
 if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("P"))) {
-    current_health = 100
-	audio_play_sound(snd_Health_Refill, 1, false);
-	global.money -= 100
+    if (global.money >= 100) {
+        current_health = 100;
+        audio_play_sound(snd_Health_Refill, 1, false);
+        global.money -= 100;
+    } else {
+        show_message("Not enough money.");
+    }
 }
 
 // Health regeneration every 25 seconds

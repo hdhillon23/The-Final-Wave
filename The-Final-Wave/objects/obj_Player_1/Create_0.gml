@@ -35,3 +35,5 @@ global.high_score = 0;
 
 // Score variable
 global.score = 0;
+
+double_damager_timer = 0;
