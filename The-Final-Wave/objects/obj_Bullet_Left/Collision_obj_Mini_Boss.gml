@@ -1,17 +1,21 @@
-instance_create_layer(x, y, layer, obj_Death_Effect); // Spawn blood
-instance_destroy(); // Destroy bullet
+// Bullet hits enemy
+other.current_health -= 30; // Adjust damage as needed
 
-//Death effect sound
+// Spawn blood effect
+instance_create_layer(x, y, layer, obj_Death_Effect);
 audio_play_sound(snd_Death_Effect, 1, false);
 
-// When the player earns points
-global.score += 20;
-global.money += 20;
+// Destroy bullet
+instance_destroy();
 
-if (global.score > global.high_score) {
-    global.high_score = global.score;
+// If enemy dies
+if (other.current_health <= 0) {
+    global.score += 20;
+    global.money += 20;
+
+    if (global.score > global.high_score) {
+        global.high_score = global.score;
+    }
+
+    instance_destroy(other); // Enemy goes bye-bye
 }
-
-//destory the bullet and enemy
-instance_destroy(other); // Destroy zombie
-instance_destroy(self) //Destory bullet
