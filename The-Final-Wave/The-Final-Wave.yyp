@@ -31,6 +31,7 @@
     {"id":{"name":"spr_Fast_Zombie_Right","path":"sprites/spr_Fast_Zombie_Right/spr_Fast_Zombie_Right.yy",},"order":2,},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},"order":6,},
     {"id":{"name":"obj_Normal_Zombie_Right","path":"objects/obj_Normal_Zombie_Right/obj_Normal_Zombie_Right.yy",},"order":3,},
+    {"id":{"name":"obj_block_player","path":"objects/obj_block_player/obj_block_player.yy",},"order":4,},
     {"id":{"name":"spr_Player_1_Up","path":"sprites/spr_Player_1_Up/spr_Player_1_Up.yy",},"order":0,},
     {"id":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"order":3,},
     {"id":{"name":"obj_spanwer_fast_zombie_right","path":"objects/obj_spanwer_fast_zombie_right/obj_spanwer_fast_zombie_right.yy",},"order":2,},
