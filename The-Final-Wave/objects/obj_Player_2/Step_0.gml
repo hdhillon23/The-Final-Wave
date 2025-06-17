@@ -40,10 +40,6 @@ if (place_free(x, y + temp_vspeed)) vspeed = temp_vspeed;
 x += hspeed;
 y += vspeed;
 
-// Set the Weapon's position to follow the player
-obj_Start_Weapon_2.x = x;
-obj_Start_Weapon_2.y = y;
-
 // Face weapon according to direction
 switch (last_direction) {
     case 1: // Right
@@ -64,10 +60,6 @@ switch (last_direction) {
         break;
 }
 
-if (instance_exists(weapon_instance)) {
-    weapon_instance.x = x; 
-    weapon_instance.y = y;
-}
 
 // Shooting with auto-reload
 if (keyboard_check_pressed(ord("L"))) {

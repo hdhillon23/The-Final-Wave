@@ -76,22 +76,26 @@ if (instance_exists(weapon_instance)) {
 if (keyboard_check_pressed(ord("G"))) {
     if (!is_reloading && ammo > 0) {
         ammo -= 1;
-        audio_play_sound(snd_Shooting, 1, false);
+		audio_play_sound(snd_Shooting, 1, false);
 
         var bx = x;
         var by = y;
 
-        var bullet;
         switch (last_direction) {
-            case 1:  bx += 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Right); break;
-            case -1: bx -= 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Left); break;
-            case 2:  by -= 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
-            case -2: by += 16; bullet = instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
+            case 1:  bx += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Right); break;
+            case -1: bx -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Left); break;
+            case 2:  by -= 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Up); break;
+            case -2: by += 16; instance_create_layer(bx, by, "Instances", obj_Bullet_Down); break;
         }
+
+    } else if (!is_reloading && ammo <= 0 && ammo_reserve > 0) {
+        is_reloading = true;
+        reload_timer = 120; // 2 seconds
+		audio_play_sound(snd_Reload_Effect, 1, false);
+    }
 }
 
-
-// 🔁 Reload timer countdown
+// 🔁 Reload timer countdown (this was missing!)
 if (is_reloading) {
     reload_timer -= 1;
     if (reload_timer <= 0) {
@@ -126,11 +130,11 @@ if (place_meeting(x, y, obj_Health_Station) && keyboard_check_pressed(ord("T")))
 }
 
 // Health regeneration every 25 seconds
+regen_timer++;
+
 if (regen_timer >= regen_interval) {
     if (current_health < max_health) {
         current_health = min(current_health + regen_amount, max_health);
     }
     regen_timer = 0;
-}
-
 }
