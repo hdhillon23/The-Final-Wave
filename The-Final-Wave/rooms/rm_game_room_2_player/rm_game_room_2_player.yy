@@ -36,6 +36,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5439C59D_1","properties":[],"isDnd":false,"objectId":{"name":"obj_Health_Station","path":"objects/obj_Health_Station/obj_Health_Station.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2240.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AE7D16D_1","properties":[],"isDnd":false,"objectId":{"name":"obj_Ammo_Station","path":"objects/obj_Ammo_Station/obj_Ammo_Station.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36AFFD92_1","properties":[],"isDnd":false,"objectId":{"name":"obj_Bubble","path":"objects/obj_Bubble/obj_Bubble.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":1024.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47A7BD35","properties":[],"isDnd":false,"objectId":{"name":"obj_End_Boss","path":"objects/obj_End_Boss/obj_End_Boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5376.0,"y":1216.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_744360F4_1_1","spriteId":{"name":"spr_fence_side","path":"sprites/spr_fence_side/spr_fence_side.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-200.0,"y":-165.0,},
@@ -415,6 +416,7 @@
     {"name":"inst_5439C59D_1","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_5AE7D16D_1","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
     {"name":"inst_36AFFD92_1","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
+    {"name":"inst_47A7BD35","path":"rooms/rm_game_room_2_player/rm_game_room_2_player.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
