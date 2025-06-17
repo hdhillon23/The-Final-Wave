@@ -17,7 +17,7 @@
   "soundFile": "snd_Zombie.mp3",
   "duration": 6.984,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Enemies",
+    "path": "folders/Sounds/Enemies.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_Death_Effect.mp3",
   "duration": 1.32,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Enemies",
+    "path": "folders/Sounds/Enemies.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_Bg_Music.mp3",
   "duration": 65.20162,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Other",
+    "path": "folders/Sounds/Other.yy",
   },
 }
