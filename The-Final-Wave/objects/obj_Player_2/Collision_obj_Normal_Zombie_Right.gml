@@ -11,7 +11,7 @@ if (!recently_hit) {
 
     if (current_health <= 0) {
         show_message("Game Over!");
-        game_restart();
+       room_goto(rm_game_over);
     }
 
     move_bounce_all(false);
