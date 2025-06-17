@@ -37,3 +37,5 @@ global.high_score = 0;
 global.score = 0;
 
 
+
+
