@@ -47,6 +47,7 @@
     {"id":{"name":"spr_objects","path":"sprites/spr_objects/spr_objects.yy",},"order":1,},
     {"id":{"name":"spr_Start_Weapon_2","path":"sprites/spr_Start_Weapon_2/spr_Start_Weapon_2.yy",},"order":5,},
     {"id":{"name":"obj_Normal_Zombie_Left","path":"objects/obj_Normal_Zombie_Left/obj_Normal_Zombie_Left.yy",},"order":5,},
+    {"id":{"name":"spr_Nuke","path":"sprites/spr_Nuke/spr_Nuke.yy",},"order":17,},
     {"id":{"name":"spr_Bullet_Down","path":"sprites/spr_Bullet_Down/spr_Bullet_Down.yy",},"order":4,},
     {"id":{"name":"spr_Death_Effect","path":"sprites/spr_Death_Effect/spr_Death_Effect.yy",},"order":8,},
     {"id":{"name":"snd_Hit","path":"sounds/snd_Hit/snd_Hit.yy",},"order":5,},
