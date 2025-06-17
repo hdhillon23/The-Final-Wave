@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "stations",
-    "path": "folders/Objects/stations.yy",
+    "name": "Special",
+    "path": "folders/Objects/Special.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_Reload_Effect.mp3",
   "duration": 3.369781,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Weapons",
+    "path": "folders/Sounds/Weapons.yy",
   },
 }

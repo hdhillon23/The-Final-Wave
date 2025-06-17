@@ -17,7 +17,7 @@
   "soundFile": "snd_Shooting.mp3",
   "duration": 2.496,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Weapons",
+    "path": "folders/Sounds/Weapons.yy",
   },
 }

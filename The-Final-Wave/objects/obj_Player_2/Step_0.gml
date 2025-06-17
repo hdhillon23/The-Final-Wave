@@ -40,24 +40,30 @@ if (place_free(x, y + temp_vspeed)) vspeed = temp_vspeed;
 x += hspeed;
 y += vspeed;
 
-// Face weapon according to direction
-switch (last_direction) {
-    case 1: // Right
-        obj_Start_Weapon_2.image_angle = 0;
-        obj_Start_Weapon_2.image_xscale = 1;
-        break;
-    case -1: // Left
-        obj_Start_Weapon_2.image_angle = 0;
-        obj_Start_Weapon_2.image_xscale = -1; // Flips horizontally
-        break;
-    case 2: // Moving Up → Weapon should face down
-        obj_Start_Weapon_2.image_angle = 90;
-        obj_Start_Weapon_2.image_xscale = 1;
-        break;
-    case -2: // Moving Down → Weapon should face up
-        obj_Start_Weapon_2.image_angle = 270;
-        obj_Start_Weapon_2.image_xscale = 1;
-        break;
+if (instance_exists(weapon_instance)) {
+    // Update weapon facing based on last_direction
+    switch (last_direction) {
+        case 1:
+            weapon_instance.image_angle = 0;
+            weapon_instance.image_xscale = 1;
+            break;
+        case -1:
+            weapon_instance.image_angle = 0;
+            weapon_instance.image_xscale = -1;
+            break;
+        case 2:
+            weapon_instance.image_angle = 90;
+            weapon_instance.image_xscale = 1;
+            break;
+        case -2:
+            weapon_instance.image_angle = 270;
+            weapon_instance.image_xscale = 1;
+            break;
+    }
+
+    // Optionally keep weapon locked to player's position
+    weapon_instance.x = x;
+    weapon_instance.y = y;
 }
 
 
